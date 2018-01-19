@@ -60,4 +60,4 @@ Enum is frozen by default. But you can pass `{ frozen: false }` and it'll be unf
 const LoadStatus = new Enum(['Loading', 'Loaded', 'Error'], { frozen: false });
 LoadStatus.Something = 111
 ```
-*It is not recommended and can lead to errors. For example You can rewrite existed property etc*
+*It is not recommended and can leads to errors. For example You can rewrite existed property etc*
