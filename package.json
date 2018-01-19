@@ -1,5 +1,5 @@
 {
-  "name": "simple-enum",
+  "name": "simple-js-enum",
   "version": "1.0.0",
   "description": "Very simple Enum class",
   "main": "index.js",
@@ -11,6 +11,10 @@
     "enum",
     "enumeration"
   ],
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/EugeneDyachenko/simple-js-enum"
+  },
   "author": "Yevhen Diachenko <dv.eugene@gmail.com>",
   "license": "MIT",
   "devDependencies": {
