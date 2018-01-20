@@ -1,7 +1,11 @@
 # simple-enum
-Simple JavaScript Enumeration<br>
-You can use it for creating set of related named constants.
+**Simple class for Enum type in JavaScript<br>**
+You can use it as typical enum or as two-way access map
+<hr>
 
+- **Only 17 lines (15 sloc) | 464 Bytes unzipped** :fire: 
+-  **Simple for use**
+- **No dependencies**
 ## Install
 You can install this library from **npm** or **yarn**:
 ```
@@ -10,6 +14,10 @@ npm install simple-js-enum
 ```
 yarn add simple-js-enum
 ```
+
+If you have some questions, problems or suggestions **you can create an issue, pull request or connect me**
+
+## Example
 
 ### Import
 ```js
@@ -61,3 +69,6 @@ const LoadStatus = new Enum(['Loading', 'Loaded', 'Error'], { frozen: false });
 LoadStatus.Something = 111
 ```
 *It is not recommended and can leads to errors. For example You can rewrite existed property etc*
+
+## Licence
+Yevhen Diachenko 2018 | [MIT](https://github.com/EugeneDyachenko/simple-js-enum/blob/master/LICENSE)
