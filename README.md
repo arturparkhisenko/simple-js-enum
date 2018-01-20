@@ -44,7 +44,7 @@ If you want to use numbers different to default you can pass object:
 const LoadStatus = new Enum({
   Loading: 10,
   Loaded: 20,
-  Error: 30
+  'Error': 30
 });
 console.log(LoadStatus.Error); // 30
 console.log(LoadStatus[30]); // 'Error'

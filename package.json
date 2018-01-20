@@ -11,9 +11,9 @@
     "enum",
     "enumeration"
   ],
-  "repository" : { 
-    "type" : "git", 
-    "url" : "https://github.com/EugeneDyachenko/simple-js-enum"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EugeneDyachenko/simple-js-enum"
   },
   "author": "Yevhen Diachenko <dv.eugene@gmail.com>",
   "license": "MIT",
